@@ -2,6 +2,6 @@
 :backends:
   - yaml
 :yaml:
-  :datadir: 'modules/govuk_logging/spec/fixtures/hieradata'
+  :datadir: 'modules/govuk_prometheus/spec/fixtures/hieradata'
 :hierarchy:
   - 'common'

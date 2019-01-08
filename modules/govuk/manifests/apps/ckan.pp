@@ -60,7 +60,6 @@ class govuk::apps::ckan (
     govuk::app { 'ckan':
       app_type           => 'procfile',
       port               => $port,
-      vhost_protected    => true,
       vhost_ssl_only     => true,
       health_check_path  => '/healthcheck',
       log_format_is_json => false,
